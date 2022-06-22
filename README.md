@@ -9,3 +9,7 @@ splayName, StatusDetail,TotalMailboxSize, PercentComplete -a;write-host "Seconds
 i=10;$i -ge 0;$i--){Write-Host "$i" -ForegroundColor green -nonewline;if ($i -eq 9){write-host "`b`b "-nonewline}else{wr
 ite-host "`b" -nonewline};Sleep 1}}
 ```
+
+The output will look like the below:
+
+![image](https://user-images.githubusercontent.com/33433229/175168052-f37f9911-704e-434a-aaaa-16f28d3e04ef.png)
