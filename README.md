@@ -1,6 +1,6 @@
 # Powershell-QuickLine---Quick-Check-Mailbox-MoveRequests-progress
 
-Just copy and paste the below line to launch a periodic check poll (every 10 seconds) of your Mailbox Move requests:
+On an Exchange Management Shell console (aka a Powershell session in which you have Exchange management cmdlets loaded), just copy and paste the below line to launch a periodic check poll (every 10 seconds) of your Mailbox Move requests:
 
 ```powershell
 while($true){$TimeStampCheck = Get-date;$NextCheck = $TimeStampCheck.AddSeconds(10);$NexStat = get-moverequest | Get-MoveRequestStatis
