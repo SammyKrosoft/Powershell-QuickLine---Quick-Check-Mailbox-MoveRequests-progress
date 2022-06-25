@@ -1,4 +1,6 @@
-# Powershell-QuickLine---Quick-Check-Mailbox-MoveRequests-progress
+# Powershell-Quickie: Quick Mailbox MoveRequests realtime monitoring console
+
+Here is a single PowerShell command line, actually several instructions separated by semicolons, to run a sort of realtime monitoring console that shows all your Move Requests in progress, refreshed every 10 seconds (or choose the number of seconds you want for each refresh).
 
 On an Exchange Management Shell console (aka a Powershell session in which you have Exchange management cmdlets loaded), just copy and paste the below one-liner PowerShell instructions to launch a periodic check poll (every 10 seconds) of your Mailbox Move requests:
 
