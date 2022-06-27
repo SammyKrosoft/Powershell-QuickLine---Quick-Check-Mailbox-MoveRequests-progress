@@ -15,4 +15,4 @@ The above command line will poll forever the Exchange Move Requests status every
 
 The output will look like the below:
 
-![image](https://user-images.githubusercontent.com/33433229/175197268-3e3709be-ab6a-4d60-abf9-d3f5d32521bf.png)
+![image](https://user-images.githubusercontent.com/33433229/176021663-5f0e90b3-cfa3-4fcd-9d49-fa4dc63bc43d.png)
