@@ -16,6 +16,6 @@ rgetDatabase, TotalMailboxSize, StatusDetail -a;write-host "Seconds before new r
 
 The above command line will poll forever the Exchange Move Requests status every 10 seconds, until you interrupt the loop (CTRL+C). You can for example run the above line in a PowerShell session (with Exchange Management Tools loaded) in the background or on another screen with other monitoring stuff, and manage your migration requests and migration batches on another PowerShell session, and you'll see the output evolve in realtime (refreshed every 10 seconds).
 
-The output will look like the below and will run forever, with a refresh every 10 seconds, until you interrupt the process with CTRL+C or by simply closing the Powershell console:
+The output will look like the below and will run forever, with a refresh every 10 seconds (there is a green count down at the end of the moves list), until you interrupt the process with CTRL+C or by simply closing the Powershell console:
 
 ![image](https://user-images.githubusercontent.com/33433229/176021663-5f0e90b3-cfa3-4fcd-9d49-fa4dc63bc43d.png)
