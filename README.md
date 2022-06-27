@@ -1,4 +1,4 @@
-# Powershell-Quickie: Quick Mailbox MoveRequests realtime monitoring console
+# Powershell-Quickie: Quick Mailbox MoveRequests realtime monitoring console one-liner
 
 Here is a single PowerShell command line, actually several instructions separated by semicolons, to run a sort of realtime monitoring console that shows all your Move Requests in progress, refreshed every 10 seconds (or choose the number of seconds you want for each refresh).
 
