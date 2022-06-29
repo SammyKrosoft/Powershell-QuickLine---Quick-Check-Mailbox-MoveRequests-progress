@@ -2,7 +2,7 @@
 
 It's sometime useful to real-time monitor your mailbox moves (OnPrem to OnPrem or OnPrem to Exchange Online or vice versa) - you can dedicate a PowerShell window to do this, potentially put that window on a separate screen (with other PowerShell monitoring windows, like perf monitoring for example), and do your other admin stuff on another Powershell window. An example of real-time mailbox move requests monitor PowerShell windows would look like this :
 
-<img src=https://user-images.githubusercontent.com/33433229/176021663-5f0e90b3-cfa3-4fcd-9d49-fa4dc63bc43d.png height = "40%" width = "40%" >
+<center><img src=https://user-images.githubusercontent.com/33433229/176021663-5f0e90b3-cfa3-4fcd-9d49-fa4dc63bc43d.png height = "60%" width = "60%" ></center>
 
 
 > ***Prerequisite** : The below one-liner PowerShell line has to be pasted on a PowerShell console with Exchange Management Tools loaded (either Exchange Online or Exchange 2016/2019/2022).*
